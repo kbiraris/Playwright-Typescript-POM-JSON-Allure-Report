@@ -1,4 +1,4 @@
-import { Page, Locator } from "@playwright/test";
+import { Page, Locator, expect } from "@playwright/test";
 
 export default class BasePage {
     readonly page: Page;
@@ -18,6 +18,8 @@ export default class BasePage {
     async b_clickElement(locator: Locator): Promise<void>{
         await locator.click();
     }
+
+    
 
 
 }
