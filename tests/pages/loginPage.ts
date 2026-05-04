@@ -25,5 +25,4 @@ export class LoginPage extends BasePage {
     async clickLogin(){
         await this.b_clickElement(this.loginButton);
     }
-
 }
